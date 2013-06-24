@@ -1,0 +1,67 @@
+#view{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+#aboat-title{
+	text-align: center;
+	color: #D7D7D7;
+}
+#aboat-title h2{
+	font-size: 18px;
+	margin: 3px;
+}
+#aboat-title p{
+	color: #525252;
+	font-size: 16px;
+}
+#my-info{
+	margin-top: 20px;
+	color: #919191;
+}
+#my-info-title{
+	width: 960px;
+	height: 28px;
+	background: url(../images/dotLine.png) repeat-x 0 14px;
+}
+#my-info-title h3{
+	text-align: center;
+	color: #D7D7D7;
+	margin: 2px;
+	background: #fff;
+	width: 100px;
+	margin: 0 auto;
+}
+#weibo{
+	color: #919191;
+}
+#history{
+	text-align: center;
+}
+
+#program,#ui-design,#contact{
+	float: left;
+	width: 320px;
+	text-align: center;
+	min-height: 200px;
+}
+#program h5,#ui-design h5,#contact h5{
+	color: #D7D7D7;
+	margin:0px;
+}
+/*#portrait{
+	float: left;
+}
+#portrait img{
+	max-width: 120px;
+}
+
+#info-me{
+	color: #818181;
+	max-width: 560px;
+	float: left;
+	margin-left: 20px;
+}*/

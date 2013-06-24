@@ -23,12 +23,7 @@ ul{
 #header{
 	border-bottom: 1px solid #e3e3e8;
 }
-#moze{
-	float: right;
-}
-#moze img{
-	height: 40px;
-}
+
 /*#logo{
 	display: inline-block;
 }
@@ -38,6 +33,14 @@ ul{
 /*#content{
 	display: inline-block;
 }*/
+#logo{
+	float: left;
+	margin-top: -3px;
+	margin-right: 20px;
+}
+#content{
+	float: left;
+}
 #content ul{
 	padding: 0px;
 	margin: 0px;
@@ -58,31 +61,34 @@ ul{
 }
 
 #content-select{
-	/*border-bottom: 3px solid #333;*/
-	color: #FF4629;
+	border-bottom: 3px solid #333;
+	color: #4183c4;
 }
-
-
-
-
 
 
 #view {
-	height: 500px;
 	width: 960px;
-	background-image: url(../images/bg.jpg);
-}
-
-#view p{
-	padding-top: 70px;
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	color: #fff;
+	min-height: 200px;
 }
 
 
+#footer{
+	padding: 0px;
+	margin-top: 10px;
+	color: #9d9d9d;
+	font-size: 12px;
+	border-top: 1px solid #e3e3e8;
+}
+#footer p{
+	margin: 5px;
+}
 
+#footer-left{
+	float: left;
+}
+#footer-right{
+	float: right;
+}
 
 
 
