@@ -1,0 +1,17 @@
+#display{
+	width: 960px;
+	margin-top: 10px;
+}
+#test{
+	margin: 0 auto;
+}
+#test ul{
+	padding-left: 0px;
+}
+#test ul li {
+	float: left;
+	width: 460px;
+	background:#f0f0f0;
+	height: 300px;
+	margin: 10px;
+}

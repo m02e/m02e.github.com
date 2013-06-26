@@ -7,12 +7,23 @@ body{
 div{
 	overflow: hidden;
 }
+img{
+	border: none;
+}
+::selection{
+background: #9d9d9d;
+color: #FFF;
+}
 a{
 	text-decoration: none;
 	color: #333;
 }
 ul{
 	list-style: none;
+}
+p{
+	margin: 0px;
+	padding: 0px;
 }
 #main{
 	margin: 0 auto ;
@@ -68,7 +79,7 @@ ul{
 
 #view {
 	width: 960px;
-	min-height: 200px;
+	min-height: 10px;
 }
 
 
@@ -88,6 +99,18 @@ ul{
 }
 #footer-right{
 	float: right;
+}
+
+.title{
+	width: 960px;
+	text-align: center;
+	color: #D7D7D7;
+	margin: 2px;
+	background: #fff;
+	margin: 0 auto;
+}
+.title h2{
+	margin: 3px;
 }
 
 
